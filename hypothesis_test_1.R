@@ -37,4 +37,6 @@ inference_hypothesistest <- function (data, known_variance_ind=F, tail="less", c
 }
 #-------------------------------------------------------------------
 x<-read.xlsx('Clean_Data.xlsx', 1)
+#plot(x$Total_Visits ~ x$Addr)
+
 inference_hypothesistest(x)
